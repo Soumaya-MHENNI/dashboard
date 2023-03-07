@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard </title>
+    <!-- ======= Styles ====== -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- =============== Navigation ================ -->
+    <div class="container">
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="#">
+                        <span class="icon-user">
+                            <div class="user">
+                                <img src="imgs/soumaya.jpg" alt="">
+                            </div>
+                        </span>
+                        <span class="title">Soumaya </span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="http://127.0.0.1:8000">
+                        <span class="icon">
+                            <ion-icon name="home-outline"></ion-icon>
+                        </span>
+                        <span class="title">Dashboard</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://www.meteo.be/fr/bruxelles">
+                        <span class="icon">
+                            <ion-icon name="cloud"></ion-icon>
+                        </span>
+                        <span class="title">Météo</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="/liveboardGare">
+                        <span class="icon">
+                            <ion-icon name="train"></ion-icon>
+                        </span>
+                        <span class="title">Liveboard Gare</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="/Actuality">
+                        <span class="icon">
+                            <ion-icon name="help-outline"></ion-icon>
+                        </span>
+                        <span class="title">Actualités</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="/FloatRates">
+                        <span class="icon">
+                            <ion-icon name="cash-outline"></ion-icon>
+                        </span>
+                        <span class="title">Taux de change</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="/Horoscope">
+                        <span class="icon">
+                            <ion-icon name="eye"></ion-icon>
+                        </span>
+                        <span class="title">Horoscope</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="log-out-outline"></ion-icon>
+                        </span>
+                        <span class="title">Sign Out</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- ========================= Main ==================== -->
+        <div class="main">
+            <div class="topbar">
+                <div class="toggle">
+                    <ion-icon name="menu-outline"></ion-icon>
+                </div>
+
+            </div>
+
+            <!-- ======================= Cards ================== -->
+            <div class="cardBox">
+                <div class="card">
+                    <div class="cardActivity">
+                        <div class="numbers">
+                            <%=date%>
+                                <div class="iconBx">
+                                    <ion-icon name="calendar"></ion-icon>
+                                </div>
+                        </div>
+
+                        <div class="cardName">
+                            <p style="color:rgb(211, 7, 7)">
+                                <%=time%>
+                            </p>
+
+   <!-- ======================= ToDo Box ================== -->
+                            <div class="activity-Box">
+                                <div class="activity">
+                                    <p id="EmptyEvent">Aucun autre évènement</p>
+                                </div>
+                                <div id="BoxInputEvent">
+                                    <div class="iconBx-addEvent1">
+                                        <ion-icon name="add"></ion-icon>
+                                    </div>
+                                </div>
+                                <div class="iconBx-addEvent"> <ion-icon name="add"></ion-icon>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+  <!-- ======================= weather Box ================== -->
+                <div class="card">
+                    <div>
+                        <div class="numbers"> Météo </div>
+
+                        <div class="weatherBox">
+                            <div class="weatherDesc"> <img class="weatherImg" src="imgs/temp.png">
+                                <%= nowTemperature %> °C
+                            </div>
+                            <div class="weatherDesc">
+                                <img class="weatherImg" src="imgs/wind.png">
+                                <%= AirQuality %> μg/m³
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="iconBx">
+                        <ion-icon name="cloud"></ion-icon>
+                    </div>
+                </div>
+  <!-- ======================= Hprpscope Box ================== -->
+                <div class="card ">
+                    <div>
+                        <div class="numbers">Pisces <div class="iconBx">
+                                <ion-icon name="fish"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="cardNameHoroscope">
+                            <%= Horoscope.description%>
+                        </div>
+                    </div>
+
+
+                </div>
+ <!-- ======================= Rate Box ================== -->
+                <div class="card">
+                    <div>
+                        <div class="numbers"> Taux de change </div>
+                        <br>
+                        <div class="cardName">1 Euro = <%=RateUSD%> USD </div>
+                        <br>
+                        <div class="cardName">1 USD = <%=INVRateUSD%> Euro </div>
+                    </div>
+
+                    <div class="iconBx">
+                        <ion-icon name="cash-outline"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ================ Details List ================= -->
+            <div class="details">
+                <!-- ================= Liveboard Gare ================ -->
+                <div class="recentOrders">
+                    <div class="cardHeader">
+                        <h2>Liveboard Gare <span>
+                                <%=IrailStattionName%>
+                            </span></h2>
+
+                    </div>
+
+                    <table>
+                        <tr>
+                            <th>Station </th>
+                            <th>Arrivée</th>
+                            <th>Retard(min)</th>
+                            <th>Quai</th>
+                        </tr>
+
+                        <% for(let i=0; i < 10; i++) { %>
+                            <tr>
+                                <td>
+                                    <strong>
+                                        <%= Irail[i].station %>
+                                    </strong>
+                                </td>
+                                <td>
+                                    <%= ("0" +new Date(Irail[i].time*1000).getHours()).slice(-2) %> :
+
+                                        <%= ("0" +new Date(Irail[i].time*1000).getMinutes()).slice(-2) %>
+                                </td>
+                                <td style="color: red">
+                                    + <%= (Irail[i].delay)/60 %>
+                                </td>
+                                <td style="color: rgb(10, 163, 74)">
+                                    <%= Irail[i].platform %>
+                                </td>
+                            </tr>
+                            <% }; %>
+                    </table>
+                </div>
+
+
+                <!-- ================= Brussel Stations Box================ -->
+                <div class="containerCard">
+                    <div class="cardHeader">
+                        <h2>Stations de transports Bruxelles</h2>
+                    </div>
+
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d80598.70813517027!2d4.305377696586514!3d50.85506112354816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sArr%C3%AAts%20de%20transports%20en%20commun!5e0!3m2!1sfr!2sbe!4v1671225986841!5m2!1sfr!2sbe"
+                        width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+                </div>
+                <!-- ================= Concerts Box================ -->
+                <div class="recentOrders">
+                    <div class="cardHeader">
+                        <h2>Concerts</h2>
+                        <a href="#" class="btn">View All</a>
+                    </div>
+
+                    <table>
+                        <tr>
+                            <th>Date </th>
+                            <th>Artiste</th>
+                            <th>Salle</th>
+                        </tr>
+
+
+
+                        <% for(let i=0; i < 10; i++) { %>
+                            <tr>
+                                <td>
+                                    <strong>
+                                        <%= concerts[i].date %>
+
+                                    </strong>
+                                </td>
+                                <td>
+                                    <%= concerts[i].artiste %>,
+
+                                </td>
+                                <td>
+                                    <%= concerts[i].salle %>
+                                </td>
+                            </tr>
+                            <% }; %>
+                    </table>
+                </div>
+                <!-- ================= Actualités ================ -->
+                <div class="containerCard">
+                    <div class="cardHeader">
+                        <h2>Actualités</h2>
+                    </div>
+
+                    <table>
+                        <% for(let i=0; i < 2; i++) { %>
+                            <tr>
+                                <td width="60px">
+                                    <div class="imgBx"><img src=" <%= niews[i]['media:content'][0].$.url %>" alt="">
+                                    </div>
+                                </td>
+                                <td>
+                                    <h5>
+                                        <%= niews[i].title[0] %> <br> <span>
+                                                <%= niews[i].pubDate[0] %>
+                                            </span>
+                                    </h5>
+                                </td>
+                                <td>
+                                    <p>
+                                        <%= niews[i].description[0] %>
+                                    </p>
+                                </td>
+                            </tr>
+
+                            <% }; %>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- =========== Scripts =========  -->
+    <script src="/js/main.js"></script>
+
+    <!-- ====== ionicons ======= -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

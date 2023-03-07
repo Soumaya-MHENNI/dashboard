@@ -1,0 +1,919 @@
+{
+    "rss": {
+        "$": {
+            "version": "2.0",
+            "xmlns:atom": "http://www.w3.org/2005/Atom",
+            "xmlns:media": "http://search.yahoo.com/mrss/",
+            "xmlns:content": "http://purl.org/rss/1.0/modules/content/"
+        },
+        "channel": [
+            {
+                "title": [
+                    "Musiques : Toute l’actualité sur Le Monde.fr."
+                ],
+                "description": [
+                    "Musiques  - Découvrez gratuitement tous les articles, les vidéos et les infographies de la rubrique Musiques sur Le Monde.fr."
+                ],
+                "copyright": [
+                    "Le Monde - L’utilisation des flux RSS du Monde.fr est réservée à un usage strictement personnel, non professionnel et non collectif. Toute autre exploitation doit faire l’objet d’une autorisation et donner lieu au versement d’une rémunération. Contact : syndication@lemonde.fr"
+                ],
+                "link": [
+                    "https://www.lemonde.fr/musiques/rss_full.xml"
+                ],
+                "pubDate": [
+                    "Wed, 01 Mar 2023 14:05:22 +0000"
+                ],
+                "language": [
+                    "fr"
+                ],
+                "atom:link": [
+                    {
+                        "$": {
+                            "href": "https://www.lemonde.fr/musiques/rss_full.xml",
+                            "rel": "self",
+                            "type": "application/rss+xml"
+                        }
+                    }
+                ],
+                "item": [
+                    {
+                        "title": [
+                            "Décès d’Ismaïla Touré, fondateur et membre du groupe sénégalais Touré Kunda"
+                        ],
+                        "pubDate": [
+                            "Tue, 28 Feb 2023 11:38:38 +0100"
+                        ],
+                        "description": [
+                            "Originaire de Ziguinchor, en Casamance, la « famille éléphant » en soninké a été pionnière des musiques africaines en France à la fin des années 1970."
+                        ],
+                        "guid": [
+                            {
+                                "_": "https://www.lemonde.fr/afrique/article/2023/02/28/deces-d-ismaila-toure-fondateur-et-membre-du-groupe-senegalais-toure-kunda_6163612_3212.html",
+                                "$": {
+                                    "isPermaLink": "true"
+                                }
+                            }
+                        ],
+                        "link": [
+                            "https://www.lemonde.fr/afrique/article/2023/02/28/deces-d-ismaila-toure-fondateur-et-membre-du-groupe-senegalais-toure-kunda_6163612_3212.html"
+                        ],
+                        "media:content": [
+                            {
+                                "$": {
+                                    "width": "644",
+                                    "height": "322",
+                                    "url": "https://img.lemde.fr/2023/02/28/31/0/1024/512/644/322/60/0/828af25_1677580136220-000-par2004070844655.jpg"
+                                },
+                                "media:description": [
+                                    {
+                                        "_": "Ismaïla Touré (à gauche) et son frère Sixu Tidiane du groupe sénégalais Touré Kunda, en concert le 7 juillet 2004 lors de la 23e édition du festival Jazz à Montauban.",
+                                        "$": {
+                                            "type": "plain"
+                                        }
+                                    }
+                                ],
+                                "media:credit": [
+                                    {
+                                        "_": "PASCAL PAVANI / AFP",
+                                        "$": {
+                                            "scheme": "urn:ebu"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": [
+                            "Gilberto Santa Rosa : « Je suis un audacieux à ma manière »"
+                        ],
+                        "pubDate": [
+                            "Mon, 27 Feb 2023 10:17:19 +0100"
+                        ],
+                        "description": [
+                            "Figure incontournable de la salsa contemporaine, Gilberto Santa Rosa est de retour en concert à Paris. Pour « Le jazz et la salsa », le chanteur romantique revient sur sa carrière et livre ses réflexions sur l’évolution de la musique latine."
+                        ],
+                        "guid": [
+                            {
+                                "_": "https://www.lemonde.fr/le-jazz-et-la-salsa/article/2023/02/27/gilberto-santa-rosa-je-suis-un-audacieux-a-ma-maniere_6163455_5324427.html",
+                                "$": {
+                                    "isPermaLink": "true"
+                                }
+                            }
+                        ],
+                        "link": [
+                            "https://www.lemonde.fr/le-jazz-et-la-salsa/article/2023/02/27/gilberto-santa-rosa-je-suis-un-audacieux-a-ma-maniere_6163455_5324427.html"
+                        ],
+                        "media:content": [
+                            {
+                                "$": {
+                                    "width": "644",
+                                    "height": "322",
+                                    "url": "https://img.lemde.fr/2023/02/25/404/0/3267/1633/644/322/60/0/0fcd9bc_1677341586541-caminalo-tour-oficial-photo.png"
+                                },
+                                "media:credit": [
+                                    {
+                                        "_": "Gilberto Santa Rosa",
+                                        "$": {
+                                            "scheme": "urn:ebu"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": [
+                            "Débora Waldman, cheffe d’orchestre passionnément"
+                        ],
+                        "pubDate": [
+                            "Mon, 27 Feb 2023 06:30:07 +0100"
+                        ],
+                        "description": [
+                            "A 45 ans, la directrice musicale de l’Orchestre national Avignon-Provence sera au pupitre pour célébrer les 30 ans des Victoires de la musique classique qui se dérouleront le 1er mars à Dijon ainsi qu’en direct sur France 3 et France Musique."
+                        ],
+                        "guid": [
+                            {
+                                "_": "https://www.lemonde.fr/culture/article/2023/02/27/debora-waldman-cheffe-d-orchestre-passionnement_6163438_3246.html",
+                                "$": {
+                                    "isPermaLink": "true"
+                                }
+                            }
+                        ],
+                        "link": [
+                            "https://www.lemonde.fr/culture/article/2023/02/27/debora-waldman-cheffe-d-orchestre-passionnement_6163438_3246.html"
+                        ],
+                        "media:content": [
+                            {
+                                "$": {
+                                    "width": "644",
+                                    "height": "322",
+                                    "url": "https://img.lemde.fr/2023/02/24/397/0/6000/3000/644/322/60/0/78f78d7_1677246992179-artcompress-opale-magmi220525b-115.jpg"
+                                },
+                                "media:description": [
+                                    {
+                                        "_": "Débora Waldman dirige le chœur de l’Opéra de Dijon, le 5 mai 2022.",
+                                        "$": {
+                                            "type": "plain"
+                                        }
+                                    }
+                                ],
+                                "media:credit": [
+                                    {
+                                        "_": "MIRCO MAGLIOCCA/OPALE.PHOTO",
+                                        "$": {
+                                            "scheme": "urn:ebu"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": [
+                            "Avec le festival Tomorrowland, la station de l’Alpe-d’Huez prête à tout pour attirer une nouvelle clientèle"
+                        ],
+                        "pubDate": [
+                            "Mon, 27 Feb 2023 04:45:13 +0100"
+                        ],
+                        "description": [
+                            "Alors que la pratique du ski baisse chez les jeunes, la station iséroise mise sur l’accueil d’un festival électro, vers lequel convergent des visiteurs issus de partout dans le monde. Un dispositif au lourd impact environnemental."
+                        ],
+                        "guid": [
+                            {
+                                "_": "https://www.lemonde.fr/economie/article/2023/02/27/avec-le-festival-tomorrowland-la-station-de-l-alpe-d-huez-prete-a-tout-pour-attirer-une-nouvelle-clientele_6163420_3234.html",
+                                "$": {
+                                    "isPermaLink": "true"
+                                }
+                            }
+                        ],
+                        "link": [
+                            "https://www.lemonde.fr/economie/article/2023/02/27/avec-le-festival-tomorrowland-la-station-de-l-alpe-d-huez-prete-a-tout-pour-attirer-une-nouvelle-clientele_6163420_3234.html"
+                        ],
+                        "media:content": [
+                            {
+                                "$": {
+                                    "width": "644",
+                                    "height": "322",
+                                    "url": "https://img.lemde.fr/2023/02/24/512/0/3072/1536/644/322/60/0/f3d2b1b_1677256187454-shutterstock40945687-000027.jpg"
+                                },
+                                "media:description": [
+                                    {
+                                        "_": "La scène du Crystal Garden, située à 2 000 mètres d’altitude, lors de la deuxième édition du festival de musique Tomorrowland Winter 2022, à l’Alpe-d’Huez (Isère), le 19 mars 2022.\n",
+                                        "$": {
+                                            "type": "plain"
+                                        }
+                                    }
+                                ],
+                                "media:credit": [
+                                    {
+                                        "_": "Shutterstock / SIPA",
+                                        "$": {
+                                            "scheme": "urn:ebu"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": [
+                            "La mort de François Hadji-Lazaro, fondateur des groupes Pigalle et Les Garçons Bouchers"
+                        ],
+                        "pubDate": [
+                            "Sun, 26 Feb 2023 19:03:04 +0100"
+                        ],
+                        "description": [
+                            "Le musicien, figure singulière du rock alternatif français, qui fut aussi acteur et producteur de musique, est mort samedi 25 février à 66 ans."
+                        ],
+                        "guid": [
+                            {
+                                "_": "https://www.lemonde.fr/disparitions/article/2023/02/26/la-mort-de-francois-hadji-lazaro-fondateur-des-groupes-pigalle-et-les-garcons-bouchers_6163399_3382.html",
+                                "$": {
+                                    "isPermaLink": "true"
+                                }
+                            }
+                        ],
+                        "link": [
+                            "https://www.lemonde.fr/disparitions/article/2023/02/26/la-mort-de-francois-hadji-lazaro-fondateur-des-groupes-pigalle-et-les-garcons-bouchers_6163399_3382.html"
+                        ],
+                        "media:content": [
+                            {
+                                "$": {
+                                    "width": "644",
+                                    "height": "322",
+                                    "url": "https://img.lemde.fr/2023/02/27/479/0/2168/1084/644/322/60/0/b64320a_1677484195893-gamma-grk2427004.jpg"
+                                },
+                                "media:description": [
+                                    {
+                                        "_": "Francois Hadji Lazaro, en mars 2005.",
+                                        "$": {
+                                            "type": "plain"
+                                        }
+                                    }
+                                ],
+                                "media:credit": [
+                                    {
+                                        "_": "Jérôme DOMINÉ",
+                                        "$": {
+                                            "scheme": "urn:ebu"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": [
+                            "Thomas Fersen plonge dans le grand bain poétique du théâtre avec « Mon frère c’est Dieu sur Terre »"
+                        ],
+                        "pubDate": [
+                            "Sun, 26 Feb 2023 17:15:14 +0100"
+                        ],
+                        "description": [
+                            "Au Théâtre de l’Athénée Louis-Jouvet, le chanteur présente son premier spectacle, un monologue en octosyllabes intégrant ses chansons."
+                        ],
+                        "guid": [
+                            {
+                                "_": "https://www.lemonde.fr/culture/article/2023/02/26/thomas-fersen-plonge-dans-le-grand-bain-poetique-du-theatre-avec-mon-frere-c-est-dieu-sur-terre_6163387_3246.html",
+                                "$": {
+                                    "isPermaLink": "true"
+                                }
+                            }
+                        ],
+                        "link": [
+                            "https://www.lemonde.fr/culture/article/2023/02/26/thomas-fersen-plonge-dans-le-grand-bain-poetique-du-theatre-avec-mon-frere-c-est-dieu-sur-terre_6163387_3246.html"
+                        ],
+                        "media:content": [
+                            {
+                                "$": {
+                                    "width": "644",
+                                    "height": "322",
+                                    "url": "https://img.lemde.fr/2023/02/24/385/0/3000/1500/644/322/60/0/8b177c7_1677245712791-christophe-raynaud-de-lage5.jpg"
+                                },
+                                "media:credit": [
+                                    {
+                                        "_": "CHRISTOPHE RAYNAUD DE LAGE",
+                                        "$": {
+                                            "scheme": "urn:ebu"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": [
+                            "Gorillaz sort « Cracker Island », le rêve californien du groupe virtuel"
+                        ],
+                        "pubDate": [
+                            "Fri, 24 Feb 2023 20:00:13 +0100"
+                        ],
+                        "description": [
+                            "Rencontre avec le chanteur Damon Albarn, à l’occasion de la sortie du huitième album, illustré par son complice Jamie Hewlett et enregistré à Los Angeles. On y retrouve des collaborations avec notamment Stevie Nicks, Beck, Kevin Parker ou Bad Bunny."
+                        ],
+                        "guid": [
+                            {
+                                "_": "https://www.lemonde.fr/culture/article/2023/02/24/gorillaz-sort-cracker-island-le-reve-californien-du-groupe-virtuel_6163234_3246.html",
+                                "$": {
+                                    "isPermaLink": "true"
+                                }
+                            }
+                        ],
+                        "link": [
+                            "https://www.lemonde.fr/culture/article/2023/02/24/gorillaz-sort-cracker-island-le-reve-californien-du-groupe-virtuel_6163234_3246.html"
+                        ],
+                        "media:content": [
+                            {
+                                "$": {
+                                    "width": "644",
+                                    "height": "322",
+                                    "url": "https://img.lemde.fr/2023/02/24/288/0/3500/1750/644/322/60/0/f080dc3_1677234162915-new-gold-press-landscape.jpg"
+                                },
+                                "media:credit": [
+                                    {
+                                        "_": "JAMIE HEWLETT/WARNER MUSIC",
+                                        "$": {
+                                            "scheme": "urn:ebu"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": [
+                            "Saad Lamjarred condamné en France à six ans de prison pour viol aggravé"
+                        ],
+                        "pubDate": [
+                            "Fri, 24 Feb 2023 18:16:38 +0100"
+                        ],
+                        "description": [
+                            "Après sept heures de délibéré, la cour s’est dite « convaincue » du viol, « décrit de manière constante et précise » par la partie civile."
+                        ],
+                        "guid": [
+                            {
+                                "_": "https://www.lemonde.fr/societe/article/2023/02/24/saad-lamjarred-condamne-en-france-a-six-ans-de-prison-pour-viol-aggrave_6163221_3224.html",
+                                "$": {
+                                    "isPermaLink": "true"
+                                }
+                            }
+                        ],
+                        "link": [
+                            "https://www.lemonde.fr/societe/article/2023/02/24/saad-lamjarred-condamne-en-france-a-six-ans-de-prison-pour-viol-aggrave_6163221_3224.html"
+                        ],
+                        "media:content": [
+                            {
+                                "$": {
+                                    "width": "644",
+                                    "height": "322",
+                                    "url": "https://img.lemde.fr/2023/02/24/358/0/4300/2150/644/322/60/0/908fd00_a6089ff41b6c4890ba2912b4bd830fde-0-16720a610b3340408bd2fe24bb48e00d.jpg"
+                                },
+                                "media:credit": [
+                                    {
+                                        "_": "STR / AP",
+                                        "$": {
+                                            "scheme": "urn:ebu"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": [
+                            "Sélection albums : Alfredo D’Ambrosio, Luca Quintavalle, Miossec, Hamza et un hommage à Bob Andy"
+                        ],
+                        "pubDate": [
+                            "Fri, 24 Feb 2023 17:00:20 +0100"
+                        ],
+                        "description": [
+                            "A écouter cette semaine : des pièces pour piano et violon par le pianiste Haruko Ueda et le violoniste Jean-Jacques Kantorow ; les œuvres de dix compositrices par le claveciniste italien ; le nouvel opus du chanteur brestois ; le troisième album solo du rappeur belge et une compilation de reprises de l’un des plus grands auteurs du reggae, mort en 2020."
+                        ],
+                        "guid": [
+                            {
+                                "_": "https://www.lemonde.fr/culture/article/2023/02/24/selection-albums-alfredo-d-ambrosio-luca-quintavalle-miossec-hamza-et-un-hommage-a-bob-andy_6163193_3246.html",
+                                "$": {
+                                    "isPermaLink": "true"
+                                }
+                            }
+                        ],
+                        "link": [
+                            "https://www.lemonde.fr/culture/article/2023/02/24/selection-albums-alfredo-d-ambrosio-luca-quintavalle-miossec-hamza-et-un-hommage-a-bob-andy_6163193_3246.html"
+                        ],
+                        "media:content": [
+                            {
+                                "$": {
+                                    "width": "644",
+                                    "height": "322",
+                                    "url": "https://img.lemde.fr/2023/02/21/121/0/609/304/644/322/60/0/38680e6_1676992233277-pochette-a-bauche.png"
+                                },
+                                "media:description": [
+                                    {
+                                        "_": "Pochette de l’album « Concertos n° 1 & 2 – Pièces pour piano et violon », d’Alfredo D’Ambrosio par Jean-Jacques Kantorow (violon), Haruko Ueda (piano), Orchestre de Douai – Région Hauts-de-France, Arie van Beek (direction).",
+                                        "$": {
+                                            "type": "plain"
+                                        }
+                                    }
+                                ],
+                                "media:credit": [
+                                    {
+                                        "_": "SOUPIR ÉDITIONS",
+                                        "$": {
+                                            "scheme": "urn:ebu"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": [
+                            "« Tracké », le podcast de Deezer qui révèle la face cachée des tubes français"
+                        ],
+                        "pubDate": [
+                            "Thu, 23 Feb 2023 18:00:07 +0100"
+                        ],
+                        "description": [
+                            "Découvrir les coulisses de chansons à succès des Rita Mitsouko ou de Clara Luciani, c’est le pari du journaliste Stéphane Basset, qui donne la parole aux artistes pendant un quart d’heure."
+                        ],
+                        "guid": [
+                            {
+                                "_": "https://www.lemonde.fr/culture/article/2023/02/23/tracke-le-podcast-de-deezer-qui-revele-la-face-cachee-des-tubes-francais_6163061_3246.html",
+                                "$": {
+                                    "isPermaLink": "true"
+                                }
+                            }
+                        ],
+                        "link": [
+                            "https://www.lemonde.fr/culture/article/2023/02/23/tracke-le-podcast-de-deezer-qui-revele-la-face-cachee-des-tubes-francais_6163061_3246.html"
+                        ],
+                        "media:content": [
+                            {
+                                "$": {
+                                    "width": "644",
+                                    "height": "322",
+                                    "url": "https://img.lemde.fr/2023/02/23/214/0/2902/1451/644/322/60/0/ef258c6_1677146474367-000-app2003022738369.jpeg"
+                                },
+                                "media:description": [
+                                    {
+                                        "_": "Le guitariste Fred Chichin et la chanteuse Catherine Ringer, des Rita Mitsouko, le 27 février 2003, au Grand Rex, à Paris.",
+                                        "$": {
+                                            "type": "plain"
+                                        }
+                                    }
+                                ],
+                                "media:credit": [
+                                    {
+                                        "_": "BERTRAND GUAY/AFP",
+                                        "$": {
+                                            "scheme": "urn:ebu"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": [
+                            "Aya Nakamura et son ex-conjoint Vladimir Boudnikoff condamnés à 10 000 euros et 5 000 euros d’amendes"
+                        ],
+                        "pubDate": [
+                            "Thu, 23 Feb 2023 14:30:56 +0100"
+                        ],
+                        "description": [
+                            "Le couple était jugé pour « violences réciproques sur conjoint » à la suite d’une dispute survenue en août 2022."
+                        ],
+                        "guid": [
+                            {
+                                "_": "https://www.lemonde.fr/police-justice/article/2023/02/23/aya-nakamura-et-son-ex-conjoint-vladimir-boudnikoff-condamnes-a-10-000-euros-et-5-000-euros-d-amendes_6163033_1653578.html",
+                                "$": {
+                                    "isPermaLink": "true"
+                                }
+                            }
+                        ],
+                        "link": [
+                            "https://www.lemonde.fr/police-justice/article/2023/02/23/aya-nakamura-et-son-ex-conjoint-vladimir-boudnikoff-condamnes-a-10-000-euros-et-5-000-euros-d-amendes_6163033_1653578.html"
+                        ],
+                        "media:content": [
+                            {
+                                "$": {
+                                    "width": "644",
+                                    "height": "322",
+                                    "url": "https://img.lemde.fr/2023/02/21/420/0/5036/2518/644/322/60/0/1ef7768_5532624-01-06.jpg"
+                                },
+                                "media:description": [
+                                    {
+                                        "_": "La chanteuse Aya Nakamura et son ex-compagnon Vladimir Boudnikoff arrivent au tribunal de Bobigny, le jeudi 23 février 2023.",
+                                        "$": {
+                                            "type": "plain"
+                                        }
+                                    }
+                                ],
+                                "media:credit": [
+                                    {
+                                        "_": "THOMAS SAMSON / AFP",
+                                        "$": {
+                                            "scheme": "urn:ebu"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": [
+                            "Quand Salvatore Adamo adapte des succès d’Elton John, Pearl Jam ou 10cc"
+                        ],
+                        "pubDate": [
+                            "Thu, 23 Feb 2023 06:30:08 +0100"
+                        ],
+                        "description": [
+                            "Dans son nouvel album « In French Please ! », l’auteur et compositeur chante en français des succès rock, folk et pop anglo-saxons. Une première dans sa carrière."
+                        ],
+                        "guid": [
+                            {
+                                "_": "https://www.lemonde.fr/culture/article/2023/02/23/quand-salvatore-adamo-adapte-des-succes-d-elton-john-pearl-jam-ou-10cc_6162952_3246.html",
+                                "$": {
+                                    "isPermaLink": "true"
+                                }
+                            }
+                        ],
+                        "link": [
+                            "https://www.lemonde.fr/culture/article/2023/02/23/quand-salvatore-adamo-adapte-des-succes-d-elton-john-pearl-jam-ou-10cc_6162952_3246.html"
+                        ],
+                        "media:content": [
+                            {
+                                "$": {
+                                    "width": "644",
+                                    "height": "322",
+                                    "url": "https://img.lemde.fr/2023/02/22/219/0/2338/1169/644/322/60/0/06cdcb8_1677064768269-salvatore-adamo-1a-sebastien-vincent.jpg"
+                                },
+                                "media:credit": [
+                                    {
+                                        "_": "SÉBASTIEN VINCENT/AVATAR DIGITAL",
+                                        "$": {
+                                            "scheme": "urn:ebu"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": [
+                            "Aux Etats-Unis, soixante ans de prison pour le meurtrier du rappeur Nipsey Hussle"
+                        ],
+                        "pubDate": [
+                            "Thu, 23 Feb 2023 00:47:51 +0100"
+                        ],
+                        "description": [
+                            "La mort de l’artiste en mars 2019, à l’âge de 33 ans, avait profondément ému le pays. Après le drame, de nombreuses stars lui avaient rendu hommage."
+                        ],
+                        "guid": [
+                            {
+                                "_": "https://www.lemonde.fr/culture/article/2023/02/23/60-ans-de-prison-pour-le-meurtrier-du-rappeur-americain-nipsey-hussle_6162918_3246.html",
+                                "$": {
+                                    "isPermaLink": "true"
+                                }
+                            }
+                        ],
+                        "link": [
+                            "https://www.lemonde.fr/culture/article/2023/02/23/60-ans-de-prison-pour-le-meurtrier-du-rappeur-americain-nipsey-hussle_6162918_3246.html"
+                        ],
+                        "media:content": [
+                            {
+                                "$": {
+                                    "width": "644",
+                                    "height": "322",
+                                    "url": "https://img.lemde.fr/2023/02/22/165/0/3575/1787/644/322/60/0/315e523_c3b0189473434b40a5f6bbd182d4690d-0-7df10a825b324cdd837b7379a419e3ea.jpg"
+                                },
+                                "media:description": [
+                                    {
+                                        "_": "Eric Holder Jr, meurtrier de Nipsey Hussle, au tribunal à Los Angeles, lors de son procès, le 15 septembre 2022.",
+                                        "$": {
+                                            "type": "plain"
+                                        }
+                                    }
+                                ],
+                                "media:credit": [
+                                    {
+                                        "_": "Apu Gomes / AP",
+                                        "$": {
+                                            "scheme": "urn:ebu"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": [
+                            "« Made in France » : la sélection musicale du « Monde Afrique » #139"
+                        ],
+                        "pubDate": [
+                            "Wed, 22 Feb 2023 19:00:22 +0100"
+                        ],
+                        "description": [
+                            "Le tromboniste Fidel Fourneyron s’associe à des talents de la diaspora, le chanteur éthiopien Asnake Gebreyes fait son retour au sein du groupe Ukandanz, et le duo Ireke cultive le syncrétisme."
+                        ],
+                        "guid": [
+                            {
+                                "_": "https://www.lemonde.fr/afrique/article/2023/02/22/made-in-france-la-selection-musicale-du-monde-afrique-139_6162904_3212.html",
+                                "$": {
+                                    "isPermaLink": "true"
+                                }
+                            }
+                        ],
+                        "link": [
+                            "https://www.lemonde.fr/afrique/article/2023/02/22/made-in-france-la-selection-musicale-du-monde-afrique-139_6162904_3212.html"
+                        ],
+                        "media:content": [
+                            {
+                                "$": {
+                                    "width": "644",
+                                    "height": "322",
+                                    "url": "https://img.lemde.fr/2023/02/08/228/0/3264/1632/644/322/60/0/c702df7_1675869080111-playlist-139.jpg"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "title": [
+                            "A la Philharmonie de Paris, Lisa Batiashvili envoûtante dans le « Concerto pour violon » de Beethoven"
+                        ],
+                        "pubDate": [
+                            "Wed, 22 Feb 2023 17:08:44 +0100"
+                        ],
+                        "description": [
+                            "Accompagnée par le Royal Concertgebouw d’Amsterdam, la violoniste germano-géorgienne a transcendé le monument beethovénien."
+                        ],
+                        "guid": [
+                            {
+                                "_": "https://www.lemonde.fr/culture/article/2023/02/22/a-la-philharmonie-de-paris-lisa-batiashvili-envoutante-dans-le-concerto-pour-violon-de-beethoven_6162886_3246.html",
+                                "$": {
+                                    "isPermaLink": "true"
+                                }
+                            }
+                        ],
+                        "link": [
+                            "https://www.lemonde.fr/culture/article/2023/02/22/a-la-philharmonie-de-paris-lisa-batiashvili-envoutante-dans-le-concerto-pour-violon-de-beethoven_6162886_3246.html"
+                        ],
+                        "media:content": [
+                            {
+                                "$": {
+                                    "width": "644",
+                                    "height": "322",
+                                    "url": "https://img.lemde.fr/2023/02/22/142/0/4724/2362/644/322/60/0/3f0f44d_1677072935473-20230221-aduparc-philharmonie-8897.jpeg"
+                                },
+                                "media:description": [
+                                    {
+                                        "_": "Lisa Batiashvili, violon, lors du concert donné par le Royal Concertgebouw Orchestra, dirigé par Paavo Järvi, dans la grande salle Pierre-Boulez, à la Philharmonie de Paris, mardi 21 février 2023.",
+                                        "$": {
+                                            "type": "plain"
+                                        }
+                                    }
+                                ],
+                                "media:credit": [
+                                    {
+                                        "_": "Ava du Parc/Cheeese",
+                                        "$": {
+                                            "scheme": "urn:ebu"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": [
+                            "Sur Arte, « Tracks » tire son irrévérence"
+                        ],
+                        "pubDate": [
+                            "Mon, 20 Feb 2023 17:00:11 +0100"
+                        ],
+                        "description": [
+                            "Vendredi 17 février, Arte France a diffusé la dernière émission du magazine qui allait à la rencontre des pionniers d’hier et d’aujourd’hui. Le programme perdure en Allemagne et sur Arte.tv sous le nom de « Tracks East »."
+                        ],
+                        "guid": [
+                            {
+                                "_": "https://www.lemonde.fr/culture/article/2023/02/20/sur-arte-tracks-tire-son-irreverence_6162589_3246.html",
+                                "$": {
+                                    "isPermaLink": "true"
+                                }
+                            }
+                        ],
+                        "link": [
+                            "https://www.lemonde.fr/culture/article/2023/02/20/sur-arte-tracks-tire-son-irreverence_6162589_3246.html"
+                        ],
+                        "media:content": [
+                            {
+                                "$": {
+                                    "width": "644",
+                                    "height": "322",
+                                    "url": "https://img.lemde.fr/2023/02/17/171/0/1735/867/644/322/60/0/efc83d3_1676624198705-tracks-fond-de-page.jpg"
+                                },
+                                "media:description": [
+                                    {
+                                        "_": "Image extraite du générique de l’émission « Tracks », sur Arte.",
+                                        "$": {
+                                            "type": "plain"
+                                        }
+                                    }
+                                ],
+                                "media:credit": [
+                                    {
+                                        "_": "ARTE",
+                                        "$": {
+                                            "scheme": "urn:ebu"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": [
+                            "Nos albums coups de cœur : Belle and Sebastian, The Arcs, Lucas Santtana…"
+                        ],
+                        "pubDate": [
+                            "Mon, 20 Feb 2023 03:00:16 +0100"
+                        ],
+                        "description": [
+                            "Le lundi, le service Culture du « Monde » propose aux lecteurs de « La Matinale » ses choix en matière de musique."
+                        ],
+                        "guid": [
+                            {
+                                "_": "https://www.lemonde.fr/culture/article/2023/02/20/belle-and-sebastian-the-arcs-lucas-santtana-nos-albums-coups-de-c-ur_6162498_3246.html",
+                                "$": {
+                                    "isPermaLink": "true"
+                                }
+                            }
+                        ],
+                        "link": [
+                            "https://www.lemonde.fr/culture/article/2023/02/20/belle-and-sebastian-the-arcs-lucas-santtana-nos-albums-coups-de-c-ur_6162498_3246.html"
+                        ],
+                        "media:content": [
+                            {
+                                "$": {
+                                    "width": "644",
+                                    "height": "322",
+                                    "url": "https://img.lemde.fr/2023/01/19/87/0/3000/1500/644/322/60/0/888eef5_1674118677919-artwork-album-o-paraiso.jpg"
+                                },
+                                "media:description": [
+                                    {
+                                        "_": "Pochette de l’album « O Paraiso », de Lucas Santtana.",
+                                        "$": {
+                                            "type": "plain"
+                                        }
+                                    }
+                                ],
+                                "media:credit": [
+                                    {
+                                        "_": "NO FORMAT !/PIAS-IDOL",
+                                        "$": {
+                                            "scheme": "urn:ebu"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": [
+                            "« La fermeture des opéras n’est pas inéluctable »"
+                        ],
+                        "pubDate": [
+                            "Sun, 19 Feb 2023 16:00:06 +0100"
+                        ],
+                        "description": [
+                            "La crise que traversent les maisons d’art lyrique, dont certaines vont jusqu’à suspendre leur activité, n’est pas seulement conjoncturelle. Leur modèle économique est obsolète et inadapté aux défis actuels, estime Thomas Dolié, chanteur lyrique dans une tribune au « Monde »."
+                        ],
+                        "guid": [
+                            {
+                                "_": "https://www.lemonde.fr/idees/article/2023/02/19/la-fermeture-des-operas-n-est-pas-ineluctable_6162469_3232.html",
+                                "$": {
+                                    "isPermaLink": "true"
+                                }
+                            }
+                        ],
+                        "link": [
+                            "https://www.lemonde.fr/idees/article/2023/02/19/la-fermeture-des-operas-n-est-pas-ineluctable_6162469_3232.html"
+                        ],
+                        "media:content": [
+                            {
+                                "$": {
+                                    "width": "644",
+                                    "height": "322",
+                                    "url": "https://img.lemde.fr/2020/06/03/291/0/3500/1750/644/322/60/0/e16a4ca_GGGCHP07_HEALTH-CORONAVIRUS-PARIS-LOCKDOWN_0603_11.JPG"
+                                },
+                                "media:description": [
+                                    {
+                                        "_": "L’opéra Garnier à Paris, le13 avril 2020.\n",
+                                        "$": {
+                                            "type": "plain"
+                                        }
+                                    }
+                                ],
+                                "media:credit": [
+                                    {
+                                        "_": "CHARLES PLATIAU / REUTERS",
+                                        "$": {
+                                            "scheme": "urn:ebu"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": [
+                            "Rachel Cartier, combattante de la parité dans l’industrie musicale"
+                        ],
+                        "pubDate": [
+                            "Sat, 18 Feb 2023 18:00:21 +0100"
+                        ],
+                        "description": [
+                            "Présidente du programme de mentorat Mewem, directrice musique de Deezer, la mélomane de 36 ans mène la bataille pour rendre visibles les femmes dans un secteur encore trop masculin."
+                        ],
+                        "guid": [
+                            {
+                                "_": "https://www.lemonde.fr/culture/article/2023/02/18/rachel-cartier-combattante-de-la-parite-dans-l-industrie-musicale_6162400_3246.html",
+                                "$": {
+                                    "isPermaLink": "true"
+                                }
+                            }
+                        ],
+                        "link": [
+                            "https://www.lemonde.fr/culture/article/2023/02/18/rachel-cartier-combattante-de-la-parite-dans-l-industrie-musicale_6162400_3246.html"
+                        ],
+                        "media:content": [
+                            {
+                                "$": {
+                                    "width": "644",
+                                    "height": "322",
+                                    "url": "https://img.lemde.fr/2023/02/14/150/0/4488/2244/644/322/60/0/7c6918f_1676368958075-rachel-cartier-by-iuliamatei-mewem-rachelcartier-1.jpg"
+                                },
+                                "media:description": [
+                                    {
+                                        "_": "Rachel Cartier, en novembre 2022.",
+                                        "$": {
+                                            "type": "plain"
+                                        }
+                                    }
+                                ],
+                                "media:credit": [
+                                    {
+                                        "_": "IULIA MATEI/MEWEM",
+                                        "$": {
+                                            "scheme": "urn:ebu"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": [
+                            "« The Pretenders, Chrissie Hynde ou la vie en rock », sur Arte : la rockeuse séductrice revendique des « goûts de garçon »"
+                        ],
+                        "pubDate": [
+                            "Fri, 17 Feb 2023 20:00:19 +0100"
+                        ],
+                        "description": [
+                            "La documentariste Claire Laborey restitue l’essentiel d’une carrière commencée dans la frustration, frappée ensuite par la tragédie pour se poursuivre dans la résilience."
+                        ],
+                        "guid": [
+                            {
+                                "_": "https://www.lemonde.fr/televisions-radio/article/2023/02/17/the-pretenders-chrissie-hynde-ou-la-vie-en-rock-sur-arte-la-rockeuse-seductrice-revendique-des-gouts-de-garcon_6162314_1655027.html",
+                                "$": {
+                                    "isPermaLink": "true"
+                                }
+                            }
+                        ],
+                        "link": [
+                            "https://www.lemonde.fr/televisions-radio/article/2023/02/17/the-pretenders-chrissie-hynde-ou-la-vie-en-rock-sur-arte-la-rockeuse-seductrice-revendique-des-gouts-de-garcon_6162314_1655027.html"
+                        ],
+                        "media:content": [
+                            {
+                                "$": {
+                                    "width": "644",
+                                    "height": "322",
+                                    "url": "https://img.lemde.fr/2023/02/15/608/0/3500/1750/644/322/60/0/a782e1b_1676456828288-the-pretenders-chrissie-hynde-ou-la-vie-en-rock-zb4842-196972-1007.jpg"
+                                },
+                                "media:credit": [
+                                    {
+                                        "_": "PHOTOSHOT/DALLE APRF",
+                                        "$": {
+                                            "scheme": "urn:ebu"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

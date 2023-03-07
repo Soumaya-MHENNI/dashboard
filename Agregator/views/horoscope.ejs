@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horoscope </title>
+    <!-- ======= Styles ====== -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- =============== Navigation ================ -->
+    <div class="container">
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="#">
+                        <span class="icon-user">
+                            <div class="user">
+                                <img src="imgs/soumaya.jpg" alt="">
+                            </div>
+                        </span>
+                        <span class="title">Soumaya </span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="http://127.0.0.1:8000">
+                        <span class="icon">
+                            <ion-icon name="home-outline"></ion-icon>
+                        </span>
+                        <span class="title">Dashboard</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://www.meteo.be/fr/bruxelles">
+                        <span class="icon">
+                            <ion-icon name="cloud"></ion-icon>
+                        </span>
+                        <span class="title">Météo</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="/liveboardGare">
+                        <span class="icon">
+                            <ion-icon name="train"></ion-icon>
+                        </span>
+                        <span class="title">Liveboard Gare</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="/Actuality">
+                        <span class="icon">
+                            <ion-icon name="help-outline"></ion-icon>
+                        </span>
+                        <span class="title">Actualités</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="/FloatRates">
+                        <span class="icon">
+                            <ion-icon name="cash-outline"></ion-icon>
+                        </span>
+                        <span class="title">Taux de change</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="/Horoscope">
+                        <span class="icon">
+                            <ion-icon name="eye"></ion-icon>
+                        </span>
+                        <span class="title">Horoscope</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="log-out-outline"></ion-icon>
+                        </span>
+                        <span class="title">Sign Out</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- ========================= Main ==================== -->
+        <div class="main">
+            <div class="topbar">
+                <div class="toggle">
+                    <ion-icon name="menu-outline"></ion-icon>
+                </div>
+
+            </div>
+            <div class="MainCard">
+                <div class="cardHeader">
+                    <h2>Horoscope
+                    </h2>
+                    <div class="dateTime">
+                        <h3>
+                            <%=date%>
+                        </h3>
+                        <p style="color:rgb(211, 7, 7)">
+                            (<%=time%>)
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- ================ List ================= -->
+            <div class="detailsBox">
+                <!-- ================= Horoscope card  ================ -->
+
+                <div class="cardBox">
+                    <% for(let i=0; i < Horoscope1.length ; i++) { %>
+
+
+                        <div class="cardHoroscope">
+
+                            <h3 class="cardHoroscopeDesc">
+                                <%=Horoscope1[i].sign%> <span style="font-size: 13px; ">
+                                        (<%=Horoscope1[i].date_range%> )
+                                    </span>
+                            </h3>
+
+                            <p class="cardHoroscopeDesc">
+                                <%=Horoscope1[i].description%>
+                            </p>
+                            <div class="cardHoroscopeDesc"><strong>Mood : </strong>
+                                <%=Horoscope1[i].mood%>
+                            </div>
+                            <div class="cardHoroscopeDesc"><strong>color : </strong>
+                                <%=Horoscope1[i].color%>
+                            </div>
+                            <div class="cardHoroscopeDesc"><strong>lucky_number : </strong>
+                                <%=Horoscope1[i].lucky_number%>
+                            </div>
+                            <div class="cardHoroscopeDesc"><strong>lucky_time : </strong>
+                                <%=Horoscope1[i].lucky_time%>
+                            </div>
+                            <div class="cardHoroscopeDesc"><strong>compatibility : </strong>
+                                <%=Horoscope1[i].compatibility%>
+                            </div>
+                        </div>
+
+
+
+                        <% }; %>
+                </div>
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- =========== Scripts =========  -->
+    <script src="/js/main.js"></script>
+
+    <!-- ====== ionicons ======= -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taux de change</title>
+    <!-- ======= Styles ====== -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- =============== Navigation ================ -->
+    <div class="container">
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="#">
+                        <span class="icon-user">
+                            <div class="user">
+                                <img src="imgs/soumaya.jpg" alt="">
+                            </div>
+                        </span>
+                        <span class="title">Soumaya </span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="http://127.0.0.1:8000">
+                        <span class="icon">
+                            <ion-icon name="home-outline"></ion-icon>
+                        </span>
+                        <span class="title">Dashboard</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://www.meteo.be/fr/bruxelles">
+                        <span class="icon">
+                            <ion-icon name="cloud"></ion-icon>
+                        </span>
+                        <span class="title">Météo</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="/liveboardGare">
+                        <span class="icon">
+                            <ion-icon name="train"></ion-icon>
+                        </span>
+                        <span class="title">Liveboard Gare</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="/Actuality">
+                        <span class="icon">
+                            <ion-icon name="help-outline"></ion-icon>
+                        </span>
+                        <span class="title">Actualités</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="/FloatRates">
+                        <span class="icon">
+                            <ion-icon name="cash-outline"></ion-icon>
+                        </span>
+                        <span class="title">Taux de change</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="/Horoscope">
+                        <span class="icon">
+                            <ion-icon name="eye"></ion-icon>
+                        </span>
+                        <span class="title">Horoscope</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="log-out-outline"></ion-icon>
+                        </span>
+                        <span class="title">Sign Out</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- ========================= Main ==================== -->
+        <div class="main">
+            <div class="topbar">
+                <div class="toggle">
+                    <ion-icon name="menu-outline"></ion-icon>
+                </div>
+
+            </div>
+<div class="MainCard">
+    <div class="cardHeader">
+        <h2>Taux de change devise
+        </h2>
+        <div class="dateTime"><h3><%=date%>  </h3><p style="color:rgb(211, 7, 7)">
+     (<%=time%>)
+</p> </div>
+
+    </div>
+</div>
+          
+            <hr>
+
+            <!-- ================ Details List ================= -->
+            <div class="detailsBox">
+                <!-- ================= Rate ================ -->
+                <div class="MainCard">
+                    
+
+                    <table>
+                        <tr>
+                            <th>Monnaie </th>
+                            <th>Sigle</th>
+                            <th>Conversions</th>
+                         
+                        </tr>
+<tr></tr>
+
+
+                        <% for(let i=0; i < Rate.length; i++) { %>
+                            <tr>
+                                <td>
+                                    <strong>
+                                        <%= Rate[i].name %>
+                                    </strong>
+                                </td>
+                                <td>
+
+                                    <%= Rate[i].code %>
+
+                                </td>
+                                <td >
+                                  
+                                  EUR >> <%= Rate[i].code %> = <span style="color: red;"><%= (Rate[i].rate).toFixed(2) %></span>
+                                <br>
+                                  <%= Rate[i].code %> >> EUR = <span style="color: red;"><%=  (Rate[i].inverseRate).toFixed(2) %></span>
+                                </td>
+                                
+                            </tr>
+                            
+                            <% }; %>
+                    </table>
+                
+
+
+              
+                   
+
+                    
+            </div>
+        </div>
+    </div>
+
+    <!-- =========== Scripts =========  -->
+    <script src="/js/main.js"></script>
+
+    <!-- ====== ionicons ======= -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
